@@ -1,9 +1,11 @@
 import { Outlet } from "react-router-dom";
-
+import Header from "../components/Header";
+import "../style/index.scss"
 function Main() {
   return (
     <>
-      <h1>Bonsoir</h1>
+      <Header/>
+
       <Outlet />
     </>
   );
